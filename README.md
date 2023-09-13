@@ -1,4 +1,3 @@
-# lab4
 #include <stdio.h>
 #include <stdlib.h>
 //Represent a node of singly linked list
@@ -52,10 +51,19 @@ void display() {
 int main()
 {
     //Add nodes to the list
-    addNode(1);
-    addNode(2);
-    addNode(3);
-    addNode(4);
+    int n1,n2,n3;
+    printf("there are three node \n enter data for 1st node");
+    scanf("%d",&n1);
+    printf("enter data for 2nd  node");
+    scanf("%d",&n2);
+    printf("enter data for 3rd node");
+     scanf("%d",&n3);
+
+
+    addNode(n1);
+    addNode(n2);
+    addNode(n3);
+
 
     //Displays the nodes present in the list
     display();
